@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     paragraphs.forEach(paragraph => {
         paragraph.onclick = () => {
-            paragraph.style.backgroundColor = 'yellow';
+            paragraph.style.backgroundColor = 'rgba(79, 94, 114, 0.9)';
         };
 
         paragraph.ondblclick = () => {
