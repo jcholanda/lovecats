@@ -51,39 +51,53 @@ main {
 
 /* Classe um */
 .classeum {
-    color: blue;
-    font-weight: 700;
-    font-style: italic;
-    letter-spacing: 1px;
-    line-height: 1.8;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing:0.7px;
+    line-height: 1.5;
     font-size: 1.2em;
 }
 
 /* Classe dois */
 .classedois {
-    color: rgba(255, 0, 0, 0.636);
+    color: rgba(125, 38, 225, 0.636);
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-size: 1.3em;
+}
+.classeitens {
+    color: rgba(109, 57, 169, 0.636);
     font-weight: 300;
     font-style: normal;
     letter-spacing: 0.5px;
     line-height: 1.5;
+    font-size: 1.3em;
+}
+.classetexto{
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.5px;
     font-size: 1em;
 }
+
 
 /* Pseudoelementos */
 p::before {
     content: 'Início do parágrafo:';
-    font-style: italic;
-    color:rgba(128, 128, 128, 0.1); 
+    font-style: normal;
+    color:rgba(255, 255, 255, 0.988); 
 }
 
 p::after {
-    content: ' [Fim do parágrafo]';
+    content: 'Fim do parágrafo';
     font-style: italic;
-    color:rgba(128, 128, 128, 0.1);
+    color:rgb(255, 255, 255);
 }
 
 ::selection {
-    background: rgba(255, 255, 0, 0.9); 
+    background: rgba(79, 94, 114, 0.9); 
     color: rgb(0, 0, 0);
 }
 img {
